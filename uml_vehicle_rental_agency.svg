@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="55cm" height="74cm" viewBox="-38 -972 1083 1467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="109.132" y="-889.166" width="153.5" height="112"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="109.132" y="-889.166" width="153.5" height="112"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="185.882" y="-870.166">RentalAgencyUI</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="185.882" y="-854.666">Text-based user</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="185.882" y="-840.666">interface.</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="185.882" y="-826.666">Initialized with</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="185.882" y="-812.666">a reference to</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="185.882" y="-798.666">the system</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="185.882" y="-784.666">interface</text>
+    <rect style="fill: #ffffff" x="109.132" y="-777.166" width="153.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="109.132" y="-777.166" width="153.5" height="8"/>
+    <rect style="fill: #ffffff" x="109.132" y="-769.166" width="153.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="109.132" y="-769.166" width="153.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="112.132" y="-755.166">+create(system)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="112.132" y="-739.166">+start()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="430.914" y="-14.767" width="187.1" height="112"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="430.914" y="-14.767" width="187.1" height="112"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="524.464" y="4.23298">Vehicle</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.464" y="19.733">superclass</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.464" y="33.733">maintains</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.464" y="47.733">vehicle's type,</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.464" y="61.733">VIN, and</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.464" y="75.733">resrevation</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.464" y="89.733">status</text>
+    <rect style="fill: #ffffff" x="430.914" y="97.233" width="187.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="430.914" y="97.233" width="187.1" height="8"/>
+    <rect style="fill: #ffffff" x="430.914" y="105.233" width="187.1" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="430.914" y="105.233" width="187.1" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="433.914" y="119.233">+create(mpg,vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="433.914" y="135.233">+get_type()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="433.914" y="151.233">+get_vin()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="433.914" y="167.233">+get_description()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="433.914" y="183.233">+is_reserved()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="433.914" y="199.233">+set_reserved(resreved)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="733.8" y="279.8" width="264.1" height="168"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733.8" y="279.8" width="264.1" height="168"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="865.85" y="298.8">Truck</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="314.3">subclass</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="328.3">maintains</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="342.3">specific</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="356.3">information for</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="370.3">vehicle type.</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="384.3">Stores it's</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="398.3">length and the</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="412.3">number of rooms</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="426.3">of stoage it can</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="865.85" y="440.3">hold</text>
+    <rect style="fill: #ffffff" x="733.8" y="447.8" width="264.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733.8" y="447.8" width="264.1" height="8"/>
+    <rect style="fill: #ffffff" x="733.8" y="455.8" width="264.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="733.8" y="455.8" width="264.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="736.8" y="469.8">+create(mpg,length,num_rooms,vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="736.8" y="485.8">+get_description()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="358.1" y="294.1" width="333.4" height="140"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="358.1" y="294.1" width="333.4" height="140"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="524.8" y="313.1">Van</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="328.6">subclass</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="342.6">maintains</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="356.6">specific</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="370.6">information for</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="384.6">vehicle type.</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="398.6">Stores the</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="412.6">maximum number</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="524.8" y="426.6">of passengers</text>
+    <rect style="fill: #ffffff" x="358.1" y="434.1" width="333.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="358.1" y="434.1" width="333.4" height="8"/>
+    <rect style="fill: #ffffff" x="358.1" y="442.1" width="333.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="358.1" y="442.1" width="333.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="361.1" y="456.1">+create(make_model,mpg,num_passengers,vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="361.1" y="472.1">+get_description()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="749.238" y="-234.81" width="294.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="749.238" y="-234.81" width="294.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="896.688" y="-215.81">Reservation</text>
+    <rect style="fill: #ffffff" x="749.238" y="-206.81" width="294.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="749.238" y="-206.81" width="294.9" height="8"/>
+    <rect style="fill: #ffffff" x="749.238" y="-198.81" width="294.9" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="749.238" y="-198.81" width="294.9" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="752.238" y="-184.81">+create(name,address,credit_card,vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="752.238" y="-168.81">+get_name()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="752.238" y="-152.81">+get_addr()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="752.238" y="-136.81">+get_credit_card()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="752.238" y="-120.81">+get_vin()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="25.9752" y="-199.285" width="348.8" height="224"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="25.9752" y="-199.285" width="348.8" height="224"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="200.375" y="-180.285">VehicleCost</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-164.785">It's</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-150.785">create(__init__)</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-136.785">method is passed</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-122.785">six arguments;</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-108.785">the</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-94.7848">daily/weekly/week</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-80.7848">end rates, the</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-66.7848">number of free</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-52.7848">miles, the per</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-38.7848">mile charge, and</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-24.7848">the daily</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="-10.7848">insurance rate</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="3.2152">to initialize</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.375" y="17.2152">the object with</text>
+    <rect style="fill: #ffffff" x="25.9752" y="24.7152" width="348.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="25.9752" y="24.7152" width="348.8" height="8"/>
+    <rect style="fill: #ffffff" x="25.9752" y="32.7152" width="348.8" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="25.9752" y="32.7152" width="348.8" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="46.7152">+create(daily_rate,weekly_rate,weekend_rate,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="62.7152">        free_miles,per_mile_chrg,insur_rate)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="78.7152">+get_daily_rate()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="94.7152">+get_weekly_rate()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="110.715">+get_weekend_rate()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="126.715">+get_free_daily_miles()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="142.715">+get_per_mile_charge()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="158.715">+get_insurance_rate()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="28.9752" y="174.715">+get_costs()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="524.464,224.476 524.464,250.673 153.253,250.673 153.253,279.105 "/>
+    <polygon style="fill: #ffffff" points="532.464,224.476 524.464,208.476 516.464,224.476 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="532.464,224.476 524.464,208.476 516.464,224.476 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="524.464,224.476 524.464,250.517 865.85,250.517 865.85,278.793 "/>
+    <polygon style="fill: #ffffff" points="532.464,224.476 524.464,208.476 516.464,224.476 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="532.464,224.476 524.464,208.476 516.464,224.476 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="524.464,224.461 524.464,259.802 524.8,259.802 524.8,293.096 "/>
+    <polygon style="fill: #ffffff" points="532.464,224.461 524.464,208.461 516.464,224.461 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="532.464,224.461 524.464,208.461 516.464,224.461 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="200.763,-283.748 200.763,-247.605 200.375,-247.605 200.375,-200.291 "/>
+    <polygon style="fill: #ffffff" points="200.763,-308.92 205.563,-294.92 200.763,-280.92 195.963,-294.92 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="200.763,-308.92 205.563,-294.92 200.763,-280.92 195.963,-294.92 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="200.569" y="-251.605"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="211.763" y="-296.92"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="204.375" y="-204.291">3</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="424.202" y="-449.414" width="264.1" height="196"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="424.202" y="-449.414" width="264.1" height="196"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="556.252" y="-430.414">Vehicles</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-414.914">aggregating</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-400.914">class maintains</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-386.914">a collection of</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-372.914">the</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-358.914">corresponding</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-344.914">object type. Has</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-330.914">aggregating</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-316.914">class has</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-302.914">methods for</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-288.914">maintaining it's</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-274.914">collection of</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="556.252" y="-260.914">objects.</text>
+    <rect style="fill: #ffffff" x="424.202" y="-253.414" width="264.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="424.202" y="-253.414" width="264.1" height="8"/>
+    <rect style="fill: #ffffff" x="424.202" y="-245.414" width="264.1" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="424.202" y="-245.414" width="264.1" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="427.202" y="-231.414">+create()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="427.202" y="-215.414">+get_vehicle(vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="427.202" y="-199.414">+add_vehicle(vehicle)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="427.202" y="-183.414">+num_avail_vehicles(vehicle_type)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="427.202" y="-167.414">+get_avail_vehicles(vehicle_type)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="427.202" y="-151.414">+unreserve_vehicle(vin)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="18.663" y="-583.928" width="364.2" height="182"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="18.663" y="-583.928" width="364.2" height="182"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="200.763" y="-564.928">VehicleCosts</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-549.428">aggregating</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-535.428">class has</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-521.428">methods for</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-507.428">maintaining it's</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-493.428">collection of</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-479.428">objects, </text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-465.428">returns the cost</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-451.428">of a specific</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-437.428">vehicle type as</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-423.428">a single string</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="200.763" y="-409.428">for display</text>
+    <rect style="fill: #ffffff" x="18.663" y="-401.928" width="364.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="18.663" y="-401.928" width="364.2" height="8"/>
+    <rect style="fill: #ffffff" x="18.663" y="-393.928" width="364.2" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="18.663" y="-393.928" width="364.2" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="21.663" y="-379.928">+create(vehicle_types)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="21.663" y="-363.928">+get_vehicle_cost(vehicle_type)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="21.663" y="-347.928">+add_vehicle_cost(veh_type,veh_cost)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="21.663" y="-331.928">+cal_rental_cost(vehicle_type,rental_period,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="21.663" y="-315.928">                 want_insurance,miles_driving)</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="760.95" y="-582.148" width="271.8" height="112"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="760.95" y="-582.148" width="271.8" height="112"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="896.85" y="-563.148">Reservations</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="896.85" y="-547.648">aggregating</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="896.85" y="-533.648">class has</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="896.85" y="-519.648">methods for</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="896.85" y="-505.648">maintaining it's</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="896.85" y="-491.648">collection of</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="896.85" y="-477.648">objects.</text>
+    <rect style="fill: #ffffff" x="760.95" y="-470.148" width="271.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="760.95" y="-470.148" width="271.8" height="8"/>
+    <rect style="fill: #ffffff" x="760.95" y="-462.148" width="271.8" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="760.95" y="-462.148" width="271.8" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="763.95" y="-448.148">+create(vehicles)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="763.95" y="-432.148">+is_reserved(vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="763.95" y="-416.148">+get_vin_for_reserved(credit_card)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="763.95" y="-400.148">+add_reservation(resv)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="763.95" y="-384.148">+find_reservation(name,addr)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="763.95" y="-368.148">+cancel_reservation(credit_card)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="556.252,-119.233 556.252,-73.0892 524.464,-73.0892 524.464,-15.7738 "/>
+    <polygon style="fill: #ffffff" points="556.252,-144.405 561.052,-130.405 556.252,-116.405 551.452,-130.405 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="556.252,-144.405 561.052,-130.405 556.252,-116.405 551.452,-130.405 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="540.358" y="-77.0892"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="567.252" y="-132.405"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="528.464" y="-19.7738">1..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="896.85,-335.97 896.85,-291.479 896.688,-291.479 896.688,-235.817 "/>
+    <polygon style="fill: #ffffff" points="896.85,-361.141 901.65,-347.141 896.85,-333.141 892.05,-347.141 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="896.85,-361.141 901.65,-347.141 896.85,-333.141 892.05,-347.141 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="896.769" y="-295.479"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="907.85" y="-349.141"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="900.688" y="-239.817">0..*</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-36.5466" y="280.112" width="379.6" height="154"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-36.5466" y="280.112" width="379.6" height="154"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="153.253" y="299.112">Car</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="314.612">Subclass</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="328.612">maintains</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="342.612">specific</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="356.612">information for</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="370.612">vehicle type.</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="384.612">Stores maximum</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="398.612">number of</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="412.612">passengers and</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="153.253" y="426.612">number of doors</text>
+    <rect style="fill: #ffffff" x="-36.5466" y="434.112" width="379.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-36.5466" y="434.112" width="379.6" height="8"/>
+    <rect style="fill: #ffffff" x="-36.5466" y="442.112" width="379.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-36.5466" y="442.112" width="379.6" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-33.5466" y="456.112">+create(make_model,mpg,num_passengers,num_doors,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-33.5466" y="472.112">        vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-33.5466" y="488.112">+get_description()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="372.166" y="-970.478" width="371.9" height="112"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="372.166" y="-970.478" width="371.9" height="112"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="558.116" y="-951.478">SystemInterface</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="558.116" y="-935.978">Provides all the</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="558.116" y="-921.978">methods that any</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="558.116" y="-907.978">user interface</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="558.116" y="-893.978">would need for</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="558.116" y="-879.978">interacting with</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="558.116" y="-865.978">the system (API)</text>
+    <rect style="fill: #ffffff" x="372.166" y="-858.478" width="371.9" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="372.166" y="-858.478" width="371.9" height="8"/>
+    <rect style="fill: #ffffff" x="372.166" y="-850.478" width="371.9" height="196"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="372.166" y="-850.478" width="371.9" height="196"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-836.478">+create()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-820.478">+num_avail_vehicles(vehicle_type)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-804.478">+get_vehicle(vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-788.478">+get_vehicle_types()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-772.478">+get_vehicle_costs(vehicle_type)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-756.478">+get_avail_vehicles(vehicle_type)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-740.478">+is_reserved(vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-724.478">+find_reservation(credit_card)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-708.478">+add_reservation(vin)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-692.478">+cancel_reservation(credit_card)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-676.478">+calc_rental_cost(vehicle_type,rental_period,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="375.166" y="-660.478">                  want_insurance,miles_driving)</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="263.642,-811.166 317.401,-811.166 317.401,-812.478 366.688,-812.478 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.924,-807.478 368.924,-812.478 358.924,-817.478 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="558.116,-653.468 558.116,-619.202 200.763,-619.202 200.763,-584.936 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="379.44" y="-623.202"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="562.116" y="-641.468">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="204.763" y="-588.936">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="558.116,-653.468 558.116,-551.946 556.252,-551.946 556.252,-450.423 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="557.184" y="-555.946"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="562.116" y="-641.468">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="560.252" y="-454.423">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="558.116,-653.468 558.116,-618.312 896.85,-618.312 896.85,-583.155 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="727.483" y="-622.312"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="562.116" y="-641.468">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="900.85" y="-587.155">1</text>
+  </g>
+</svg>
