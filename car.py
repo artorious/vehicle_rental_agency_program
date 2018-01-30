@@ -6,7 +6,7 @@ class Car(Vehicle):
     Subtype of the Vehicle class.
 
     Contains additional attributes of make and model, num of passengers and
-    num of doors. Supports polymorphic behaviour of method get-description.
+    num of doors. Supports polymorphic behaviour of method get_description.
     """
     
     def __init__(self, make_model, mpg, num_passengers, num_doors, vin):
