@@ -11,24 +11,36 @@ class Vehicle(object):
         
         Initializes a Vehicle object with <mpg> and <vin>
         """
-        pass
+        self.__mpg = mpg
+        self.__vin = vin
+        self.__reserved = False
 
     def get_type(self):
-        """Returns the type of vehicle (car, van, Truck.)"""
-        return
+        """ (Vehicle) -> str
+        
+        Returns the type of vehicle (car, van, Truck.)
+        """
+        return type(self).__name__
     
     def get_vin(self):
-	    """Returns the vin of vehicle""" 
-	    return
+	    """(Vehicle) -> str
+
+        Returns the vin of vehicle
+        """ 
+	    return self.__vin
     
     def get_description(self):
-	    """Returns general description of car not specific to type.""" 
-	    return
+        """(Vehicle) -> str
+        
+        Returns general description of car not specific to type.
+        """
+        description = 'mpg:{0:>3}   vin:{1:>12}'.format(self.__mpg, self.__vin)
+        return description
     
     def is_reserved(self):
 	    """Returns True if vehicle is reserved, otherwise, returns False""" 
-	    return
+	    return self.__reserved
     
     def set_reserved(self, resreved):
 	    """Sets reserved flag of vehicle to provided Bolean Value""" 
-	    pass
+	    self.__reserved = resreved
