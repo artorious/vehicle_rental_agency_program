@@ -13,7 +13,7 @@ class InvalidVinError(Exception):
 
 class Vehicles:
     """
-    Aggregating class maintains a collection of Vehicle object 
+    Aggregating class maintains a collection of Vehicle objects 
     """
     def __init__(self):
         """ Initializes empty list of vehicles """
