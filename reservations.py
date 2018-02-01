@@ -9,41 +9,42 @@ class Reservations(object):
     def __init__(self):
         """ (Reservations) - dict
 
-        Inits empty collection of reservations
+        Inits empty collection of reservations, with credit card numbers 
+        serving as the key values.
         """
-        pass
+        self.__reservations = dict()
         
     def is_reserved(self, vin):
         """ (Reservations, str) -> bool
 
         Returns True if reservation for vin, else returns False
         """
-        return
+        return vin in self.__reservations
     
     def get_vin_for_reserved(self, credit_card):
         """ (Reservations, str) -> str
 
         Returns vin of vehicles reserved with credit_card
         """
-        return
+        return self.__reservations[credit_card].get_vin()
 
     def add_reservation(self, resv):
         """ (Reservations, bool) -> Reservations
 
         Adds new reservation
         """
-        pass
+        self.__reservations[resv.get_credit_card()] = resv
         
     def find_reservation(self, credit_card):
         """ (Reservations, str) -> bool
 
         Returns True if reservation for credit_card, else returns False
         """
-        return
+        return credit_card in self.__reservations
     
     def cancel_reservation(self, credit_card):
         """ (Reservations, str) -> Reservations
 
         Deletes reservation matching credit card number
         """
-        pass
+        del (self.__reservations[credit_card])
