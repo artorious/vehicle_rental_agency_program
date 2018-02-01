@@ -9,32 +9,35 @@ class Reservation(object):
         
         Init a Reservation object with name, address, credit_card and vin
         """
-        pass
+        self.__name = name
+        self.__address = address
+        self.__credit_card = credit_card
+        self.__vin = vin
     
     def get_name(self):
         """(Reservation) -> str
 
         Returns first and last name for reservation
         """
-        return
+        return self.__name
     
     def get_address(self):
         """(Reservation) -> str
 
         Returns address for reservation
         """
-        return
+        return self.__address
     
     def get_credit_card(self):
         """(Reservation) -> str
 
         Returns credit card on reservation
         """
-        return
+        return self.__credit_card
     
     def get_vin(self):
         """(Reservation) -> str
 
         Returns vehicle identification number reservation
         """
-        return
+        return self.__vin
