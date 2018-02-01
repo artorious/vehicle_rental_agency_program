@@ -1,0 +1,24 @@
+#CARS#, make-model, mpg, num passengers, num doors, vin
+Chevrolet Camero,30,4,2,WG8JM5492DY
+Chevrolet Camero,30,4,2,KH4GM4564GD
+Ford Fusion,34,5,4,AB4FG5689GM
+Ford Fusion Hybrid,36,5,4,GH2KL4278TK
+Ford Fusion Hybrid,36,5,4,KU4EG3245RW
+Chevrolet Impala,30,6,4,QD4PK7394Jl
+Chevrolet Impala,30,6,4,RK3BM4256YH
+#VANS#, make-model, mpg (highway), num passengers, vin
+Chrysler Town&Country,25,7,DK3KG8312UE
+Chrysler Town&Country,25,7,VM9RE2645TD
+Chrysler Town&Country,25,7,WK8BF4287DX
+Dodge Caravan,25,7,QK3FL4278ME
+Dodge Caravan,25,7,KY8EW2053XT
+Ford Expedition,20,8,JK2RT8364HY
+Ford Expedition,20,8,KH4ME4216XW
+#TRUCKS#, mpg (highway), length, num rooms, vin
+12,10,1,EJ5KU2435BC
+12,10,1,KF8JP7293EK
+10,17,2,KG4DM5472RK
+10,17,2,PR8JH4893WQ
+8,24,4,EP2WR3182QB
+8,24,4,TY3GH4290EK
+8,24,4,KU9FL4235RH

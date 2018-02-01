@@ -1,0 +1,4 @@
+Rental Costs: Line 1-cars, 2-vans, 3-trucks. Format: daily, weekly, weekend, free miles, per mile, insurance rate.
+24.99, 180.00, 45.00, 100, .15, 14.99
+35.00, 220.00, 55.00, 0, .20, 14.99
+55.00, 425.00, 110.00, 25, .25, 24.99
