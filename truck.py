@@ -10,15 +10,18 @@ class Truck(Vehicle):
     Supprs polyphormic behaviour of method get_description
     """
     def __init__(self, mpg, length, num_rooms, vin):
-        """
+        """ (Truck, str, str, str, str) -> str, str, bool, str, str
+        
         Initializes with mpg, length, num_rooms, vin.
         """
-        super().__init__(mpg, vin)
+        super().__init__(mpg, vin) # Init Vehicle class
+
         self.__length = length
         self.__num_rooms = num_rooms
         
     def get_description(self):
-        """
+        """ (Car) -> str
+        
         Returns complete description of truck
         """
         spacing = '   '

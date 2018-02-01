@@ -8,41 +8,53 @@ from van import Van
 from truck import Truck
 
 class InvalidVinError(Exception):
-    """ Exception indicating that a provided vin not found. """
+    """ Exception class indicating that a provided vin not found. """
     pass
 
-class Vehicles:
+class Vehicles(object):
     """
     Aggregating class maintains a collection of Vehicle objects 
     """
     def __init__(self):
-        """ Initializes empty list of vehicles """
+        """ (Vehicles) -> list
+
+        Initializes empty list of vehicles 
+        """
         self.__vehicles = []
     
     def get_vehicle(self, vin):
-        """ Returns Vehicle for provided vin, Raises InvalidVinError. """
+        """ (Vehicles, str) -> Vehicle
+
+        Returns Vehicle for provided vin, Raises InvalidVinError. 
+        """
         for vehicle in self.__vehicles:
             if vehicle.get_vin() == vin:
                 return vehicle
         raise InvalidVinError
     
     def add_vehicle(self, vehicle):
-        """ Adds new vehicle to list of vehicles. """
+        """ (Vehicles, Vehicle) -> Vehicles
+
+        Adds new vehicle to list of vehicles. 
+        """
         self.__vehicles.append(vehicle)
         
     def num_avail_vehicles(self, vehicle_type):
-        """ Returns number of available vehicles of vehicle_type. """
+        """ (Vehicles, str) -> int
+
+        Returns number of available vehicles of vehicle_type. 
+        """
         return len(self.get_avail_vehicles(vehicle_type))
     
     def get_avail_vehicles(self, vehicle_type):
-        """
+        """ (Vehicles, str) -> list
         Returns a list of unreserved Vehicles objects of vehicle_type. 
         """
         return [veh for veh in self.__vehicles \
                 if veh.get_type() == vehicle_type and not veh.is_reserved()]
     
     def unreserve_vehicle(self, vin):
-        """
+        """ (Vehicles, str) -> Vehicle
         Sets reservation status of vehicle with vin to unreserved
         """
         k = 0

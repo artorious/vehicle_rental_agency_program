@@ -10,15 +10,21 @@ class Car(Vehicle):
     """
     
     def __init__(self, make_model, mpg, num_passengers, num_doors, vin):
-        """ Initialized with provided parameters """
-        super().__init__(mpg, vin)
+        """ (Car, str, str, str, str, str) -> str, str, bool, str, str, str
+
+        Initialized with provided parameters 
+        """
+        super().__init__(mpg, vin) # Init Vehicle class
         
         self.__make_model = make_model
         self.__num_passengers = num_passengers
         self.__num_doors = num_doors
     
     def get_description (self):
-        """Returns description of car as a formatted string."""
+        """ (Car) -> str
+
+        Returns description of car as a formatted string.
+        """
         spacing = '   '
         description = '{0:<18}{1}passengers: {2}{1}doors: {3:<2}{1}{4}'.format(
             self.__make_model, spacing, self.__num_passengers, \

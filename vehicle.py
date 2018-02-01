@@ -38,9 +38,14 @@ class Vehicle(object):
         return description
     
     def is_reserved(self):
-	    """Returns True if vehicle is reserved, otherwise, returns False""" 
+	    """ (Vehicle) -> bool
+
+        Returns True if vehicle is reserved, otherwise, returns False""" 
 	    return self.__reserved
     
     def set_reserved(self, resreved):
-	    """Sets reserved flag of vehicle to provided Bolean Value""" 
+	    """(Vehicle) -> Vehicle
+
+        Sets reserved flag of vehicle to provided Bolean Value <resreved>
+        """ 
 	    self.__reserved = resreved
