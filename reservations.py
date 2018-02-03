@@ -7,7 +7,7 @@ class Reservations(object):
     """ Aggregating class has methods for maintaining rental resevations """
     
     def __init__(self):
-        """ (Reservations) - dict
+        """ (Reservations) -> dict
 
         Inits empty collection of reservations, with credit card numbers 
         serving as the key values.
